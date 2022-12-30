@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "KaushanScript-Regular";
+  src: url(../fuentes/KaushanScript-Regular.ttf); }
+
+header {
+  background-image: url(../fotos/background-definitivo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column; }
+  header .cabeza {
+    flex-direction: row; }
+    header .cabeza .log {
+      justify-content: baseline;
+      align-items: baseline;
+      width: 250px;
+      height: 250px;
+      margin-bottom: 2rem;
+      border-radius: 50%;
+      transition: 2s all;
+      animation-iteration-count: infinite; }
+    header .cabeza .log:hover {
+      transform: rotatey(360deg); }
+    header .cabeza .titulo {
+      justify-content: center;
+      text-align: left;
+      align-items: flex-end; }
+      header .cabeza .titulo .titulot {
+        margin-top: 10rem;
+        font-size: 5rem;
+        color: white;
+        font-family: "KaushanScript-Regular";
+        font-weight: bolder; }
+  header .navbar {
+    justify-content: flex-end;
+    background: linear-gradient(to bottom, #880dec, #4400ff);
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 0px; }
+    header .navbar .navbar-brand {
+      color: antiquewhite;
+      padding-left: 2rem; }
+    header .navbar .nav-item {
+      padding-left: 2rem;
+      padding-right: 2rem; }
+    header .navbar .nav-link {
+      color: aliceblue;
+      font-size: 1.5rem;
+      padding-left: 2rem; }
+
+main {
+  background-image: url(../fotos/backedw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1500px; }
+  main .carru {
+    width: 600px;
+    height: 650px;
+    padding: 3rem; }
+    main .carru .imgcar {
+      width: 600px;
+      height: 500px; }
+  main .carru2 {
+    width: 600px;
+    height: 650px;
+    padding: 3rem;
+    margin-left: 2rem; }
+    main .carru2 .imgcar {
+      width: 600px;
+      height: 500px; }
+  main .wp {
+    width: 150px;
+    height: 150px;
+    position: fixed; }
+
+p {
+  font-size: 2rem; }

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: "KaushanScript-Regular";
+    src: url(../fuentes/KaushanScript-Regular.ttf);
+}
+$titulo: "KaushanScript-Regular";
+
+header {
+    background-image: url(../fotos/background-definitivo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:auto;
+    width: 100%;
+    height: 450px;
+    display: flex;  
+    justify-content: end;
+    flex-direction: column;
+        .cabeza{
+                flex-direction: row;
+           
+                     
+                .log{
+                        justify-content: baseline;
+                        align-items: baseline;
+                        width:250px;
+                        height: 250px;
+                        margin-bottom: 2rem;
+                        border-radius: 50%;
+                        transition: 2s all ;
+                      
+                        animation-iteration-count: infinite;
+                    }
+
+                .log:hover{
+                    transform: rotatey(360deg);
+                }    
+            .titulo {
+                       justify-content:center;
+                       text-align:left;
+                       align-items: flex-end;
+                    .titulot{
+                    margin-top: 10rem;
+                    font-size: 5rem;
+                    color: rgb(255, 255, 255);
+                    font-family: $titulo; 
+                    font-weight: bolder;
+                            } 
+                      }      
+                    }      
+    .navbar{
+        justify-content: flex-end;
+        background: linear-gradient(to bottom, rgb(136, 13, 236), rgb(68, 0, 255));
+        width: 100%;
+        height: 4rem;
+        margin-bottom: 0px;
+        .navbar-brand{color: antiquewhite;
+                      padding-left: 2rem;  }
+        .nav-item{
+           
+            padding-left: 2rem;
+            padding-right:2rem ;
+        }              
+        .nav-link{
+            color: aliceblue;
+            font-size: 1.5rem;
+            padding-left: 2rem;
+        }
+    }
+}
+
+    main {
+        background-image: url(../fotos/backedw.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 1500px;
+       
+        .carru{
+                width: 600px;
+                height: 650px;
+                padding: 3rem;
+                .imgcar{
+                    width: 600px;
+                    height: 500px;
+                }
+        }
+        .carru2{
+            width: 600px;
+            height: 650px;        
+            padding: 3rem;
+            margin-left: 2rem;
+            
+            .imgcar{
+                width: 600px;
+                height: 500px;
+            }
+                 }
+         
+                
+                 .wp{
+                width:150px;
+                height:150px ;
+                position: fixed;
+               
+              }         
+                
+    }
+    p {
+        font-size: 2rem;
+    }
